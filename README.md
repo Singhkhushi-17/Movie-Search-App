@@ -6,6 +6,22 @@ This project allows users to search for movies and view details such as the post
 
 ---
 
+# Get your API key from: https://www.omdbapi.com/apikey.aspx
+
+
+## Setup Environment Variables
+
+1. Create a `.env.local` file in the project root.
+2. Copy the content from `.env.example`.
+3. VITE_OMDB_API_KEY = YOUR_API_KEY   (in your file.env.local)
+4. Replace `YOUR_OMDB_API_KEY` with your own OMDb API key.
+5. Run the project.
+
+```bash
+npm install
+npm run dev
+VITE_OMDB_API_KEY=YOUR_OMDB_API_KEY
+
 ## 🚀 Live Features
 
 - 🔍 Search movies by title
