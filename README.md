@@ -1,16 +1,159 @@
-# React + Vite
+# 🎬 React Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Movie Search Application built with **React.js**, **Vite**, **Tailwind CSS**, and the **OMDb API**.
 
-Currently, two official plugins are available:
+This project allows users to search for movies and view details such as the poster, release year, and IMDb rating.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search movies by title
+- 🎬 Display movie posters
+- ⭐ IMDb ratings
+- 📅 Release year
+- ⚡ Debounced search for better performance
+- ⏳ Loading indicator
+- ❌ Error handling
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS
+- OMDb API
+
+---
+
+## 📚 Concepts Used
+
+### React
+- Functional Components
+- Component Reusability
+- Props
+- useState
+- useEffect
+- Conditional Rendering
+
+### JavaScript
+- Fetch API
+- Async/Await
+- Object Destructuring
+- Array map()
+- Template Literals
+- Environment Variables
+- Debouncing
+
+---
+
+## ⚠️ Why OMDb Instead of TMDB?
+
+This project was inspired by the **JavaScript Mastery React tutorial**, which uses the **TMDB API**.
+
+While following the tutorial, I encountered API access issues with TMDB. Instead of stopping the project, I adapted it to work with the **OMDb API**.
+
+Since OMDb and TMDB provide different endpoints and data structures, some features from the original tutorial (such as **Trending Movies**) are **not available** in this version.
+
+This repository is especially helpful for learners who face similar TMDB API issues and want to continue building the project using OMDb.
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-movie-search-app.git
+```
+
+Move into the project folder:
+
+```bash
+cd react-movie-search-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## 🔑 Configure the API Key
+
+Create a file named:
+
+```text
+.env.local
+```
+
+Add your OMDb API key:
+
+```env
+VITE_OMDB_API_KEY=YOUR_API_KEY
+```
+
+You can get a free API key from:
+
+https://www.omdbapi.com/apikey.aspx
+
+After creating the file, restart the development server.
+
+---
+
+## ▶️ Run the Project
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── Components/
+ │     ├── MovieCard.jsx
+ │     └── Search.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+
+public/
+```
+
+---
+
+## 📸 Preview
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6866a07b-057f-46b1-8247-08ca68c73238" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31eb97c9-cb01-4f7d-8aa6-3ad47bb2ab9a" />
+
+
+
+---
+
+## 🤝 Contributions
+
+Feel free to fork this repository, suggest improvements, or submit a pull request.
+
+---
+
+## ⭐ Support
+
+If this project helped you, consider giving it a ⭐ on GitHub.
+
+Khushi Singh 
